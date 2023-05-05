@@ -1,0 +1,50 @@
+body{
+  color: black;
+  background-color: white;
+}
+
+#data-container{
+  background-image:url(bgimage1.jpeg);
+  margin: 30px;
+  margin-top: 0;
+  border-radius: 30px;
+  border: solid black 3px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#currentR{
+  background-color: rgb(43, 255, 234);
+  border-radius: 20px;
+  box-shadow: dimgrey 15px 15px;
+  max-width: 700px;
+  padding: 75px;
+  margin: 0 auto;
+}
+
+#currentR > div{
+  padding: 30px;
+}
+
+h3{
+
+  font-size: 40px;
+  padding: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+td, th{
+  padding: 10px;
+}
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
